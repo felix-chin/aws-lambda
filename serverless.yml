@@ -1,0 +1,32 @@
+service: aws-lambdas
+plugins:
+  - serverless-dotenv-plugin
+useDotenv: true
+frameworkVersion: '2'
+provider:
+  name: aws
+  runtime: nodejs12.x
+  lambdaHashingVersion: 20201221
+  region: us-west-2
+functions:
+  catFacts:
+    handler: getCatFacts.catFacts
+    description: calls the Cat Facts API and returns one random cat fact
+    events:
+      - http:
+          path: catFacts
+          method: get
+  translateText:
+    handler: getTranslatedText.translateText
+    description: receives an input string in English and calls the MyMemory API to translate the string from English to Spanish, and returns the translated text
+    events:
+      - http:
+          path: translateText
+          method: get
+  getWeather:
+    handler: getWeather.getWeather
+    description: takes customer input as a zipcode and retrieves weather information for that location
+    events:
+      - http:
+          path: getWeather
+          method: get
