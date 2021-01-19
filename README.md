@@ -41,11 +41,12 @@ If you have not already, please setup an AWS account and configure your AWS cred
 3. Setup environment variables:
     
     - Request an API key from https://openweathermap.org/
-    - Create a .env file in the root directory and enter the following:
-    ```shell
-    WEATHER_KEY={your_openweathermap_API_key}
-    EMAIL={youremail@email.com}
-    ```
+    - Create a .env file in the root of this repo and enter the following:
+    
+        ```shell
+        WEATHER_KEY={your_openweathermap_API_key}
+        EMAIL={youremail@email.com}
+        ```
 4. Deploy AWS Lambda functions via Serverless:
     ```shell
     serverless deploy
