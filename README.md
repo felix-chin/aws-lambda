@@ -1,6 +1,6 @@
 # AWS Lambda & Serverless Framework
 
-This repository contains AWS Lambda functions that are deployed via Serverless Framework and utilized in Amazon Connect
+This repository contains AWS Lambda functions that have been deployed via Serverless Framework and utilized in Amazon Connect
 
 ## Live Demo
 
