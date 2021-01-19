@@ -27,8 +27,7 @@ Amazon Connect Demo with Lambda functions deployed:
 
 ### Getting Started
 
-If you have not already, please setup an AWS account and configure your AWS credentials with Serverless Framework. The below link can help you get started:
-- https://www.serverless.com/framework/docs/providers/aws/guide/installation/
+If you have not already, please setup an AWS account and configure your AWS credentials with Serverless Framework. This [documentation](https://www.serverless.com/framework/docs/providers/aws/guide/installation/) can help you get started.
 
 1. Clone the repository:
     ```shell
