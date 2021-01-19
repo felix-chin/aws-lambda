@@ -4,7 +4,8 @@ This repository contains AWS Lambda functions that have been deployed via Server
 
 ## Live Demo
 
-Amazon Connect Demo with Lambda functions deployed: +1-213-328-4877
+Amazon Connect Demo with Lambda functions deployed: 
+- +1-213-328-4877
 
 ## Technologies Used
 
