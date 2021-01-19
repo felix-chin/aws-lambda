@@ -60,7 +60,6 @@ Setting up and configuring an Amazon Connect instance for these Lambda functions
 If you would like to export the contact flows from the Amazon Connect instance that these Lambda functions were developed for, please follow these steps:
 
 1. Login to the Amazon Connect instance:
-   Login link:
    - https://felixchin.awsapps.com/connect/login
    
    Guest login credentials:
